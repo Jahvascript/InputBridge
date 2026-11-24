@@ -1,0 +1,27 @@
+# Swift build outputs
+.build/
+.swiftpm/
+dist/
+DerivedData/
+*.app
+*.dSYM/
+
+# macOS and Xcode local files
+.DS_Store
+*.xcuserstate
+xcuserdata/
+
+# Local logs and configuration
+*.log
+.env
+.env.*
+diagnostics/
+recordings/
+
+# Signing identities and provisioning profiles
+*.p12
+*.pfx
+*.mobileprovision
+*.provisionprofile
+*.key
+*.pem

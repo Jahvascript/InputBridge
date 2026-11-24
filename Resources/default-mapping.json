@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "name": "Keyboard & Mouse",
+  "keyboardBindings": [
+    { "keyCode": 13, "action": "leftStickUp" },
+    { "keyCode": 1, "action": "leftStickDown" },
+    { "keyCode": 0, "action": "leftStickLeft" },
+    { "keyCode": 2, "action": "leftStickRight" },
+    { "keyCode": 126, "action": "dpadUp" },
+    { "keyCode": 125, "action": "dpadDown" },
+    { "keyCode": 123, "action": "dpadLeft" },
+    { "keyCode": 124, "action": "dpadRight" },
+    { "keyCode": 49, "action": "cross" },
+    { "keyCode": 14, "action": "square" },
+    { "keyCode": 3, "action": "circle" },
+    { "keyCode": 17, "action": "triangle" },
+    { "keyCode": 12, "action": "leftShoulder" },
+    { "keyCode": 15, "action": "rightShoulder" },
+    { "keyCode": 56, "action": "leftStickButton" },
+    { "keyCode": 36, "action": "options" },
+    { "keyCode": 48, "action": "touchpad" },
+    { "keyCode": 53, "action": "playStation" }
+  ],
+  "mouse": {
+    "targetStick": "right",
+    "sensitivityX": 0.025,
+    "sensitivityY": 0.025,
+    "smoothing": 0.25,
+    "recenterSpeed": 8,
+    "invertY": false,
+    "buttonBindings": [
+      { "buttonNumber": 0, "action": "rightTrigger" },
+      { "buttonNumber": 1, "action": "leftTrigger" },
+      { "buttonNumber": 2, "action": "rightStickButton" }
+    ]
+  }
+}

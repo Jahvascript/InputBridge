@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>InputBridge</string>
+    <key>CFBundleExecutable</key>
+    <string>InputBridgeApp</string>
+    <key>CFBundleIdentifier</key>
+    <string>io.inputbridge.app</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>InputBridge</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>12.0</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSHumanReadableCopyright</key>
+    <string>InputBridge is an independent, experimental input accessibility utility.</string>
+    <key>NSInputMonitoringUsageDescription</key>
+    <string>InputBridge observes keyboard and mouse input so it can translate it into controller input while PS Remote Play is active.</string>
+    <key>NSAccessibilityUsageDescription</key>
+    <string>InputBridge may use Accessibility permission to observe input on managed macOS installations.</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+</dict>
+</plist>
