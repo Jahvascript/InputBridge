@@ -1,0 +1,14 @@
+# Consistent source formatting across development machines
+* text=auto
+
+*.swift text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+*.json text eol=lf
+*.plist text eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
